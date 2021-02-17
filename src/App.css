@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.dj-section {
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/27/23/03/guitar-1699501_960_720.jpg");
+  height: calc(100vh - 75px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.dj-section-hero {
+  position: absolute;
+  top: calc(70% - 6rem);
+  left: 25%;
+}
+.dj-section-hero h1 {
+  color: white;
+  font-size: 6rem;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.dj-section-hero p {
+  color: white;
+  font-size: 2rem;
+  color: gray;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-2l {
+  margin-left: 2%;
+}
+
+.margin-2r {
+  margin-right: 2%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container > * {
+  width: 50%;
+}
+
+.margin-left {
+  margin-left: 2%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.widget {
+  display: flex;
+}
+
+.fa {
+  margin-left: 10px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.community-icons {
+  align-self: flex-end;
+  font-size: 18px;
+  display: flex;
+}
+
+.community-icons > div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.m-top-2 {
+  margin-top: 2rem;
+}
+
+.m-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+.m-top-4 {
+  margin-top: 4rem;
+}
+
+.m-bottom-4 {
+  margin-bottom: 4rem;
+}
+
+
+.m-2 {
+  margin: 2%;
+}
+
+.p-3 {
+  padding: 3%;
+}
+
+.m-7 {
+  margin: 7%;
+}
+
+.m-5{
+  margin:5%;
+}
+.p-5 {
+  padding: 5%;
+}
+
+@media (max-width: 700px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex > * {
+    flex:1;
+  }
+
+
+}
+
+
+
+.gray {
+  background-color: rgb(245,246,246);
+}
+
+
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.wrapper {
+ display: block;
+ height: auto;
+ width: 100%;
+}
+
+.flex-1 {
+  display: flex;
+  flex:1;
+}
+
+
+.flex-align-start {
+  align-items: flex-start;
+}
+
+
+@media(max-width: 700px){
+
+  .row {
+    flex-direction: column;
+  }
+}
