@@ -8,3 +8,7 @@ Scalable navbar.
 
 
 Adding new embedded tracks
+
+
+
+todo: delete trackDataReducer and infoDataReducers - useless.
